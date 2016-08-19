@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="nl.loemba.fons.zwave2.KamerActivity">
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linksvoor"
+        android:id="@+id/KmrLv"
+        android:layout_marginTop="10dp"
+        android:onClick="OnSwitch" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rechtsvoor"
+        android:id="@+id/KmrRv"
+        android:layout_marginTop="10dp"
+        android:onClick="OnSwitch" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linksachter"
+        android:id="@+id/KmrLa"
+        android:layout_marginTop="10dp"
+        android:onClick="OnSwitch" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rechtsachter"
+        android:id="@+id/KmrRa"
+        android:layout_marginTop="10dp"
+        android:onClick="OnSwitch" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/buttonUpdateK"
+        android:layout_marginTop="20dp"
+        android:onClick="OnUpdate" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/homeK"
+        android:layout_marginTop="10dp"
+        android:onClick="OnHome" />
+
+</LinearLayout>

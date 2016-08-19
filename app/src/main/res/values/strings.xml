@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Home</string>
+    <string name="room1">Woonkamer</string>
+    <string name="room2">Hal</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kamer">Woonkamer</string>
+    <string name="title_activity_hal">Hal</string>
+    <string name="url">http://raspberrypi.fritz.box:8083/ZWaveAPI/</string>
+
+</resources>

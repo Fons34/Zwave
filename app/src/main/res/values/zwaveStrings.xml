@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="getString">
+        <item>"Run/devices[9].instances[0].commandClasses[38].Get()"</item>
+        <item>"Run/devices[3].instances[0].commandClasses[37].Get()"</item>
+        <item>"Run/devices[5].instances[0].commandClasses[37].Get()"</item>
+        <item>"Run/devices[6].instances[0].commandClasses[37].Get()"</item>
+        <item>"Run/devices[2].instances[0].commandClasses[37].Get()"</item>
+    </string-array>
+    <string-array name="levelString">
+        <item>devices.9.instances.0.commandClasses.38.data.level</item>
+        <item>devices.3.instances.0.commandClasses.37.data.level</item>
+        <item>devices.5.instances.0.commandClasses.37.data.level</item>
+        <item>devices.6.instances.0.commandClasses.37.data.level</item>
+        <item>devices.2.instances.0.commandClasses.37.data.level</item>
+    </string-array>
+    <string-array name="setOffString">
+        <item>Run/devices[9].instances[0].commandClasses[38].Set(0)</item>
+        <item>Run/devices[3].instances[0].commandClasses[37].Set(0)</item>
+        <item>Run/devices[5].instances[0].commandClasses[37].Set(0)</item>
+        <item>Run/devices[6].instances[0].commandClasses[37].Set(0)</item>
+        <item>Run/devices[2].instances[0].commandClasses[37].Set(0)</item>
+    </string-array>
+    <string-array name="setOnString">
+        <item>Run/devices[9].instances[0].commandClasses[38].Set(90)</item>
+        <item>Run/devices[3].instances[0].commandClasses[37].Set(1)</item>
+        <item>Run/devices[5].instances[0].commandClasses[37].Set(1)</item>
+        <item>Run/devices[6].instances[0].commandClasses[37].Set(1)</item>
+        <item>Run/devices[2].instances[0].commandClasses[37].Set(1)</item>
+    </string-array>
+
+</resources>
